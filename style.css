@@ -1,0 +1,63 @@
+body{
+background-color: rgb(172, 172, 172);
+
+}
+
+
+#logo {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    border-radius: 42px;
+    top:50px;
+    left: 50px;
+}
+
+main{
+width: 940px;
+margin: 0 auto;
+
+}
+
+.main_input {
+    width: 70%;
+    height: 500px;
+    margin: 50px 0 0 0;
+    color: black;
+    text-align: left; /* Alinear el texto al principio */
+    font-size: 25px;
+    display: block;    
+    background-color: transparent;
+    border: none;
+    resize: none;
+    outline: none;
+}
+
+.btnAccion{
+    width: 37.5%;
+    height: 50px;
+    padding: 5px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color:white;
+    background: orange;
+    border: 2px solid black ;
+    border-radius: 10px;
+    transition: 1s all;
+    cursor:pointer;
+    margin: 10px 2px;
+}
+
+#PantallaTexto{
+    position: absolute;
+    width: 350px;
+    height: 550px;
+    right: 30px;
+    top: 50px;
+    border:2px solid black ;
+    border-radius: 25px;
+    padding: 15px 15px;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: white;
+}
